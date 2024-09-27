@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Assingment 2</string>
+    <string name="select_recipe_category">Select Recipe Category</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="non_vegetarian">Non-Vegetarian</string>
+    <string name="select_ingredients">Select Ingredients</string>
+    <string name="tomato">Tomato</string>
+    <string name="cheese">Cheese</string>
+    <string name="basil">Basil</string>
+    <string name="adjust_spice_level">Adjust Spice Level</string>
+    <string name="cooking_mode">Cooking Mode</string>
+    <string name="easy_mode">Easy Mode</string>
+    <string name="rate_the_recipe">Rate the Recipe</string>
+    <string name="submit">Submit</string>
+    <string name="select_recipe_categorty">Select Recipe Categorty:</string>
+    <string name="vegetarian1">Vegetarian</string>
+    <string name="non_vegetarian2">Non-vegetarian</string>
+    <string name="select_ingredients1">Select Ingredients:</string>
+    <string name="tomato1">Tomato</string>
+    <string name="cheese2">Cheese</string>
+    <string name="basil3">Basil</string>
+    <string name="select_recipe_category1">Select Recipe Category</string>
+    <string name="vegetarian2">Vegetarian</string>
+    <string name="non_vegetarian3">Non-Vegetarian</string>
+    <string name="select_ingredients4">Select Ingredients</string>
+    <string name="tomato2">Tomato</string>
+    <string name="cheese3">Cheese</string>
+    <string name="basil4">Basil</string>
+    <string name="adjust_spice_level4">Adjust Spice Level</string>
+    <string name="cooking_mode6">Cooking Mode</string>
+    <string name="easy_mode1">Easy Mode</string>
+    <string name="rate_the_recipe2">Rate the Recipe</string>
+</resources>
