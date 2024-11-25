@@ -1,5 +1,6 @@
-package com.example.Assingment2;
+package com.example.assingment2;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,16 +13,14 @@ import android.widget.Switch;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.Assingment2.R;
-
 public class MainActivity extends AppCompatActivity {
 
     private CheckBox vegetarianCheckBox, nonVegetarianCheckBox;
     private RadioGroup ingredientsRadioGroup;
     private SeekBar spiceLevelSeekBar;
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
     private Switch cookingModeSwitch;
     private RatingBar recipeRatingBar;
-    private Button submitButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         spiceLevelSeekBar = findViewById(R.id.seekBar_spice);
         cookingModeSwitch = findViewById(R.id.switch_mode);
         recipeRatingBar = findViewById(R.id.ratingBar);
-        submitButton = findViewById(R.id.submit_button);
+        Button submitButton = findViewById(R.id.submit_button);
 
         // Handling the submit button click event
         submitButton.setOnClickListener(new View.OnClickListener() {
@@ -59,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             selectedIngredient = selectedRadioButton.getText().toString();
         }
 
-        // Collecting seek bar input
+       
         int spiceLevel = spiceLevelSeekBar.getProgress();
 
         // Collecting switch input
